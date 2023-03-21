@@ -1,10 +1,10 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast: B, CommandManager, ItemType } = require('ranvier');
+const { Broadcast: B, CommandManager, ItemType } = require('whispermud-core');
 const say = B.sayAt;
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
-const Parser = require('../../bundle-example-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
+const Parser = require('../../whispermud-lib/lib/ArgParser');
 
 
 const subcommands = new CommandManager();

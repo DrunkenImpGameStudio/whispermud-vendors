@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "vendor-npcs",
+  "name": "whispermud-vendors",
   "dependencies": {
     "sprintf-js": "^1.1.2"
   }
